@@ -38,6 +38,7 @@ function decrement() {
 }
 
 function run() {
+    $("#timer").text("Time remaining: " + number + " seconds");
     intervalID = setInterval(decrement, 1000);
 }
 
